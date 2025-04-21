@@ -1,0 +1,4 @@
+blocked_host,protocol,destination_ip,epoch,pgname,threat_name,url
+192.168.1.10,ICMP,8.8.8.8,1744555770,mydomain.com,,https://mydomain.com/summary/
+192.168.1.11,TCP/23,8.8.4.4,1744555770,mydomain.vn,Telnet Attack,https://mydomain.com/summary/
+192.168.1.12,TCP/7000,1.1.1.1,1744555770,mytoken,DDoS Botnets,https://mydomain.com/summary/
