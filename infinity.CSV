@@ -1,8 +1,7 @@
 blocked_host,protocol,destination_ip,epoch,pgname,threat_name,url
-192.168.1.10,ICMP,8.8.8.8,1745198877,mydomain.com,,https://mydomain.com/summary/
-192.168.1.11,TCP/23,8.8.4.4,1745206077,mydomain.vn,Telnet Attack,https://mydomain.com/summary/
-192.168.1.12,TCP/7000,1.1.1.1,1745209677,mytoken,DDoS Botnets,https://mydomain.com/summary/
-192.168.1.12,TCP/7000,1.1.1.1,1745213277,mytoken,DDoS Botnets,https://mydomain.com/summary/
-192.168.1.12,TCP/7000,1.1.1.1,1745216877,mytoken,DDoS Botnets,https://mydomain.com/summary/
-192.168.1.12,TCP/7000,1.1.1.1,1745220477,mytoken,DDoS Botnets,https://mydomain.com/summary/
-
+"192.168.1.10, 192.168.1.11, 192.168.1.12, 192.168.1.12, 192.168.1.12, 192.168.1.12","ICMP, TCP/23, TCP/7000, TCP/7000, TCP/7000, TCP/7000","8.8.8.8, 8.8.4.4, 1.1.1.1, 1.1.1.1, 1.1.1.1, 1.1.1.1","1745198877, 1745206077, 1745209677, 1745213277, 1745216877, 1745220477","mydomain.com, mydomain.vn, mytoken, mytoken, mytoken, mytoken",,"https://mydomain.com/summary/, https://mydomain.com/summary/, https://mydomain.com/summary/, https://mydomain.com/summary/, https://mydomain.com/summary/, https://mydomain.com/summary/"
+,,,,,Telnet Attack,
+,,,,,DDoS Botnets,
+,,,,,DDoS Botnets,
+,,,,,DDoS Botnets,
+,,,,,DDoS Botnets,
