@@ -1,29 +1,12 @@
 [
-  {
-    "blocked_host": "192.168.1.10",
-    "protocol": "ICMP",
-    "destination_ip": "8.8.8.8",
-    "epoch": 1745198877,
-    "pgname": "mydomain.com",
-    "threat_name": "",
-    "url": "https://mydomain.com/summary/"
-  },
-  {
-    "blocked_host": "192.168.1.11",
-    "protocol": "TCP/23",
-    "destination_ip": "8.8.4.4",
-    "epoch": 1745206077,
-    "pgname": "mydomain.vn",
-    "threat_name": "Telnet Attack",
-    "url": "https://mydomain.com/summary/"
-  },
-  {
-    "blocked_host": "192.168.1.12",
-    "protocol": "TCP/7000",
-    "destination_ip": "1.1.1.1",
-    "epoch": 1745209677,
-    "pgname": "mytoken",
-    "threat_name": "DDoS Botnets",
-    "url": "https://mydomain.com/summary/"
-  }
+  "Apr 25 21:40:30 AED-Viecbe adb: protocol=TCP blocked_host=public.mbbank.com.vn, threat=Abuse, destination=103.12.104.192",
+  "Apr 25 21:41:12 AED-Viecbe adb: protocol=TCP blocked_host=abc.vn, threat=Botnet, destination=1.1.1.1",
+  "Apr 25 21:41:12 AED-Viecbe adb: protocol=TCP blocked_host=abc.vn, threat=Botnet, destination=1.1.1.1",
+  "Apr 25 21:41:12 AED-Viecbe adb: protocol=TCP blocked_host=abc.vn, threat=Botnet, destination=1.1.1.1",
+  "Apr 25 21:41:12 AED-Viecbe adb: protocol=TCP blocked_host=abc.vn, threat=Botnet, destination=1.1.1.1",
+  "Apr 25 21:41:12 AED-Viecbe adb: protocol=TCP blocked_host=abc.vn, threat=Botnet, destination=1.1.1.1",
+  "Apr 25 21:41:12 AED-Viecbe adb: protocol=TCP blocked_host=abc.vn, threat=Botnet, destination=1.1.1.1",
+  "Apr 25 21:41:12 AED-Viecbe adb: protocol=TCP blocked_host=abc.vn, threat=Botnet, destination=1.1.1.1",
+  "Apr 25 21:41:12 AED-Viecbe adb: protocol=TCP blocked_host=abc.vn, threat=Botnet, destination=1.1.1.1",
+  "Apr 25 21:41:12 AED-Viecbe adb: protocol=TCP blocked_host=abc.vn, threat=Botnet, destination=1.1.1.1"
 ]
