@@ -1,0 +1,197 @@
+{
+  "results": {
+    "A": {
+      "frames": [
+        {
+          "data": {
+            "values": [
+              [
+                "Apr 13 21:40:30 10.1.23.456 Apr 13 21:40:30 ABC-VietNam arbor-networks-aps:Blocked Host: Blocked host 14.123.45.56 at 21:39 by Rate-based Blocking using TCP/443 (HTTPS) destination 103.12.104.92 source port 19251,EPOCH: 1744555170,PGID: 224,PGNAME: api-abc.abcbank.com.vn,URL: https://ABC-VietNam/summary/",
+                "Apr 13 21:40:30 10.1.23.456 Apr 13 21:40:30 ABC-VietNam arbor-networks-aps:Blocked Host: Blocked host 14.123.45.56 at 21:39 by Rate-based Blocking using TCP/443 (HTTPS) destination 103.12.104.92 source port 19251,EPOCH: 1744555170,PGID: 224,PGNAME: api-abc.abcbank.com.vn,URL: https://ABC-VietNam/summary/"
+              ],
+              [
+                "11:7651361",
+                "11:7651361"
+              ],
+              [
+                1744555230,
+                1744555230
+              ],
+              [
+                "ddos_arbor~11~19EF8E85-1BC0-4C81-BFDC-161E432B23D3",
+                "ddos_arbor~11~19EF8E85-1BC0-4C81-BFDC-161E432B23D3"
+              ],
+              [
+                0,
+                0
+              ],
+              [
+                "splunk-soc",
+                "ddos_arbor"
+              ],
+              [
+                "arbor:aps",
+                "arbor:aps"
+              ],
+              [
+                1744555230000,
+                1744555230000
+              ],
+              [
+                "10.1.23.456",
+                "10.1.23.456"
+              ],
+              [
+                "ddos_arbor",
+                "ddos_arbor"
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                "udp:5522",
+                "udp:5522"
+              ],
+              [
+                "arbor:aps",
+                "arbor:aps"
+              ],
+              [
+                "splunk-soc",
+                "splunk-soc"
+              ]
+            ]
+          },
+          "schema": {
+            "fields": [
+              {
+                "name": "_raw",
+                "type": "string",
+                "typeInfo": {
+                  "frame": "string",
+                  "nullable": true
+                }
+              },
+              {
+                "name": "_cd",
+                "type": "string",
+                "typeInfo": {
+                  "frame": "string",
+                  "nullable": true
+                }
+              },
+              {
+                "name": "_indextime",
+                "type": "number",
+                "typeInfo": {
+                  "frame": "float64",
+                  "nullable": true
+                }
+              },
+              {
+                "name": "_bkt",
+                "type": "string",
+                "typeInfo": {
+                  "frame": "string",
+                  "nullable": true
+                }
+              },
+              {
+                "name": "_serial",
+                "type": "number",
+                "typeInfo": {
+                  "frame": "float64",
+                  "nullable": true
+                }
+              },
+              {
+                "name": "_si",
+                "type": "string",
+                "typeInfo": {
+                  "frame": "string",
+                  "nullable": true
+                }
+              },
+              {
+                "name": "_sourcetype",
+                "type": "string",
+                "typeInfo": {
+                  "frame": "string",
+                  "nullable": true
+                }
+              },
+              {
+                "name": "_time",
+                "type": "time",
+                "typeInfo": {
+                  "frame": "time.Time",
+                  "nullable": true
+                }
+              },
+              {
+                "name": "host",
+                "type": "string",
+                "typeInfo": {
+                  "frame": "string",
+                  "nullable": true
+                }
+              },
+              {
+                "name": "index",
+                "type": "string",
+                "typeInfo": {
+                  "frame": "string",
+                  "nullable": true
+                }
+              },
+              {
+                "name": "linecount",
+                "type": "number",
+                "typeInfo": {
+                  "frame": "float64",
+                  "nullable": true
+                }
+              },
+              {
+                "name": "source",
+                "type": "string",
+                "typeInfo": {
+                  "frame": "string",
+                  "nullable": true
+                }
+              },
+              {
+                "name": "sourcetype",
+                "type": "string",
+                "typeInfo": {
+                  "frame": "string",
+                  "nullable": true
+                }
+              },
+              {
+                "name": "splunk_server",
+                "type": "string",
+                "typeInfo": {
+                  "frame": "string",
+                  "nullable": true
+                }
+              }
+            ],
+            "meta": {
+              "custom": {},
+              "executedQueryString": "index=ddos_arbor \"Rate-based Blocking\"api-abc.abcbank.com.vn",
+              "preferredVisualisationType": "logs",
+              "typeVersion": [
+                0,
+                0
+              ]
+            },
+            "refId": "A"
+          }
+        }
+      ],
+      "status": 200
+    }
+  }
+}
